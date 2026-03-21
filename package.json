@@ -1,0 +1,53 @@
+{
+  "name": "@louis-innovations/sadad-js-sdk",
+  "version": "1.0.0",
+  "description": "SADAD Payment Gateway SDK for Node.js/TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "tsc --noEmit"
+  },
+  "keywords": [
+    "sadad",
+    "payment",
+    "gateway",
+    "qatar",
+    "sdk",
+    "typescript"
+  ],
+  "author": "Louis Innovations (www.louis-innovations.com)",
+  "license": "MIT",
+  "homepage": "https://github.com/louis-innovations/sadad-js-sdk#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/louis-innovations/sadad-js-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/louis-innovations/sadad-js-sdk/issues"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}
